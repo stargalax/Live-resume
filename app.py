@@ -24,7 +24,7 @@ tabs = st.tabs(["🏠 Home", "📜 Certifications", "💡 Projects", "🧭 State
 with tabs[0]:
     st.title("Nikitha S")
     st.subheader("Final Year CS Student | Data & AI Enthusiast")
-    
+    cert_links = st.secrets["certifications"]
 
     col1, col2 = st.columns([1, 3])
     with col1:
@@ -62,13 +62,15 @@ with tabs[0]:
     - **Soft Skills**: Analytical Thinking, Communication, Curiosity, Self-learning
     """)
 
+    
     st.markdown("### ✅ Certifications")
-    st.markdown("""
+    st.markdown(f"""
     - Deep Learning – NVIDIA  
     - Python for Data Science – IBM  
     - Web Scraping – Simplilearn  
-    - Excel Essentials – LinkedIn Learning  
-    - Data Fundamentals – IBM SkillsBuild
+    - [Excel Essentials – LinkedIn Learning]({cert_links.excel})  
+    - Data Fundamentals – IBM SkillsBuild  
+    - [Analytics Engineering Project – LinkedIn Learning]({cert_links.analytics_eng})  
     """)
 
     st.markdown("### 💼 Experience")
