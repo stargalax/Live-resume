@@ -72,7 +72,7 @@ with tabs[0]:
     - Data Fundamentals – IBM SkillsBuild  
     - [Analytics Engineering Project – LinkedIn Learning]({cert_links.analytics_eng})
     - [Oracle SQL Explorer - Oracle University]({cert_links.sql})
-    - [ML Introduction- AWS Skill Builder ]
+    - [ML Introduction- AWS Skill Builder ]({cert_links.ml_dashboard})
     """)
 
     st.markdown("### 💼 Experience")
