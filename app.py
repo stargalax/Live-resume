@@ -70,7 +70,9 @@ with tabs[0]:
     - Web Scraping – Simplilearn  
     - [Excel Essentials – LinkedIn Learning]({cert_links.excel})  
     - Data Fundamentals – IBM SkillsBuild  
-    - [Analytics Engineering Project – LinkedIn Learning]({cert_links.analytics_eng})  
+    - [Analytics Engineering Project – LinkedIn Learning]({cert_links.analytics_eng})
+    - [Oracle SQL Explorer - Oracle University]({cert_links.sql})
+    - [ML]
     """)
 
     st.markdown("### 💼 Experience")
@@ -104,13 +106,13 @@ with tabs[1]:
 
 
     # Percent completion values
-    values = [20, 50, 70]
-    labels = ["Oracle Data Platform", "IBM Python", "ML Learning Plan"]
+    values = [40, 50,30]
+    labels = ["Oracle Data Platform", "IBM Python", "ML Foundations-AWS Educate"]
     colors = ['#FF6B6B', '#4CAF50', '#2196F3']
     links = [
         st.secrets["certifications"]["oracle_dashboard"],
         st.secrets["certifications"]["ibm_dashboard"],
-        st.secrets["certifications"]["ml_dashboard"]
+        st.secrets["certifications"]["ml_foundation"]
     ]
 
     fig = go.Figure()
@@ -145,8 +147,8 @@ with tabs[1]:
     # Optional: fallback text links
     st.markdown("""
     - 🔴 [Oracle Certification Dashboard](%s)  
-    - 🟢 [IBM Python Dashboard](%s)  
-    - 🔵 [ML Learning Plan Tracker](%s)
+    - 🟢 [IBM Python Dashboard](%s) 
+    - 🟣 [ML Foundation by AWS Educate](%s) 
     """ % tuple(links))
     
 
