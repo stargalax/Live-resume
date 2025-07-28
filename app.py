@@ -181,6 +181,7 @@ with tabs[3]:
     st.header("🧭 Personal Statement")
     st.success("""
         I enjoy crafting user experiences that make data more accessible, meaningful, and actionable.  
+        With 6 months of front end dev internship experience under my belt, combining my passion for data, this journey has been a real rewarding one.
         My goal is to help individuals and organizations make informed, data-driven choices through intuitive design, powerful analytics, and thoughtful storytelling.  
         Whether it's through dashboards, simulations, or predictive tools, I aim to turn complexity into clarity.
 This website is a passion project I built not only to showcase my work but also to explore the boundaries of how data can be experienced. I believe the power of information lies not just in numbers, but in how clearly and creatively it can be communicated. From certifications in progress to experimental AI tools, everything you see here reflects my curiosity, continuous growth, and desire to make an impact ; one percent everyday.
